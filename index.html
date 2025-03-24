@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fotografia </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">ACASA </a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> DESPRE MINE </a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">DESPRE MINE </a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Despre mine </h3>
+  <p>
+    Am început această călătorie cu dorința de a imortaliza tot ce este frumos și unic în jurul meu, iar astăzi sunt aici pentru a aduce aceleași momente speciale în viața ta. Fie că este vorba de un eveniment important, o sesiune foto personalizată sau un proiect creativ, scopul meu este să îți ofer amintiri care să rămână pentru totdeauna.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Adrian</b></p><br>
+      <img src="poza.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="900">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Bună, sunt Adrian B. – un fotograf pasionat de capturarea celor mai frumoase momente din viața ta!
+         Îmi place să creez imagini care nu doar că imortalizează momente, dar care și transmit povești. Dacă ai nevoie de un fotograf dedicat  pentru unul dintre următoarele evenimente, te pot ajuta cu drag:
+
+        Botezul este un moment emoționant și plin de semnificație.Te voi ajuta să surprinzi acele momente unice, iar fotografiile vor deveni amintiri neprețuite pentru familia ta.
+
+        <br>Nunta</br>
+        
+        Ziua nunții este, fără îndoială, una dintre cele mai importante zile din viața voastră. Voi fi acolo să capturez fiecare detaliu, astfel încât să aveți amintiri perfecte care să dureze o viață întreagă.
+
+        <br>Petreceri private<br>
+        Indiferent dacă e vorba de un aniversare, un party cu prietenii sau orice altă petrecere privată, voi fi prezent pentru a documenta momentele de distracție, energia și atmosfera vibrantă.
+
+        <br>Stări civile</br>
+        Pentru acea zi specială în care începeți un nou capitol al vieții voastre, vă voi oferi un serviciu foto discret și profesionist, surprinzând momentele intime și emoționante ale evenimentului.
+
+        <p style="color:rgb(23, 6, 80);45px">Dacă vrei să discutăm mai multe despre evenimentul tău, pachetele foto sau orice alte detalii, te invit să îmi scrii la adrianconstantin1988@yahoo.ro</p>
+
+    
+
+</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Sunt bun la :</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
+  </div>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">O parte din munca mea</h3>
+  <p class="w3-center"><em>Aici am o mare parte din poze.<br> Click pe imagine pentru a mari.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="poze/statiapadurii.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Statia Padurii">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/dolhesti Mari.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Falticeni/Dolhesti Mari">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/d2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Voronet">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/ciric2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt=" Ciric">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="poze/ciric3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="strada Ciric">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/train1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tren romanesc">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/cat.jpeg" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pisica Pestrita">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="poze/bingofulgi.jpeg" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bingo si Fulgi">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Iasi/Romania<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone:0745847131<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: adrianconstantin1988@yahoo.ro<br>
+      </div>
+      <p></p>
+      
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> TRIMITE MESAJ
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by Adrian B</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
